@@ -1,0 +1,144 @@
+.svg-16 {
+    width: 25px;
+    height: 16px;
+    color: currentColor;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.a-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.pl-60 {
+    padding-left: 60px;
+}
+
+.pr-60 {
+    padding-right: 60px;
+}
+
+.p-15-20 {
+    padding: 15px 20px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-42 {
+    margin-top: 42px;
+}
+
+.p-32 {
+    padding: 32px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.p-tb-20 {
+    padding: 20px 0;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.fixed-center {
+    border-radius: 10px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: fixed;
+    width: 446px;
+    background-color: #fff;
+    z-index: 99999;
+}
+
+.button-login-or-register {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: $c-yellow;
+    color: $c-purple-primary;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 200ms;
+
+    &:hover {
+        background-color: $c-purple-primary;
+        color: $c-yellow;
+    }
+}
+
+.title-primary {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #191919;
+}
+
+.item-title {
+    font-weight: 500;
+    color: #191919;
+    margin-top: 12px;
+    letter-spacing: -0.28px;
+}
+.title-second{
+    font-size: 16px;
+    font-weight: 600;
+    color: $c-purple-primary;
+}
+.shadow-bg {
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(88, 63, 181, 0.08) 0px 2px 16px;
+    }
+}
+
+
+.shadow-bg-all{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    z-index: 3;
+    opacity: 0.5;
+    z-index: 12;
+}

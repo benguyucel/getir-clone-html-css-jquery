@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700&family=Roboto:wght@100&family=Zen+Kaku+Gothic+Antique:wght@300;400&family=Zen+Maru+Gothic&display=swap");
+@import "reset";
+@import "_variables";
+@import "_utilities";
+@import "_header";
+@import "_useractions";
+@import "_slider";
+@import "wrapper";
+@import "category";
+@import "campaigns";
+
+// header
+html,
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-size: 14px;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+a {
+  color: $c-dark;
+  text-decoration: none;
+}
+
+
+// userActions
+
