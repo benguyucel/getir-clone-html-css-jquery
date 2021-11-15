@@ -29,8 +29,15 @@
         display: flex;
         flex-wrap: wrap;
         background-color: #fff;
+        
 
         .item {
+            padding-top: 20px;
+            padding-bottom: 15px;
+            position: relative;
+            border-right: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            width: calc(100% / 8);
             &:nth-child(8n) {
                 border-right: none
             }
@@ -39,12 +46,7 @@
                 border-bottom: none;
             }
 
-            padding-top: 20px;
-            padding-bottom: 15px;
-            position: relative;
-            border-right: 1px solid #eee;
-            border-bottom: 1px solid #eee;
-            width: calc(100% / 8);
+           
 
             .add-to-cart {
                 position: absolute;
@@ -129,14 +131,14 @@
         z-index: 1;
         min-height: 312px;
         background-image: url("https://getir.com/_next/static/images/doodle-d659f9f1fd505c811c2331fe3ffddd5f.png");
-
+        
         .img-container {
-            position: absolute;
+            align-self: flex-end;
+            position: relative;
             bottom: -4px;
-            right: 0;
-
+            
             img {
-                object-fit: contain;
+                object-fit: cover;
                 width: 100%;
                 height: auto;
             }
@@ -154,6 +156,7 @@
         padding-top: 50px;
         justify-content: space-between;
         margin-right: -20px;
+        
 
         .dk-item {
             border-radius: 8px;
@@ -166,6 +169,7 @@
             padding-top: 60px;
             padding-bottom: 35px;
             justify-content: space-between;
+         
 
             .img-container {
                 margin-bottom: 20px;
@@ -198,6 +202,7 @@ footer.footer-home {
         display: flex;
         justify-content: space-between;
         padding-bottom: 60px;
+        flex-wrap: wrap;
 
         .footer-title {
             margin-bottom: 20px;
@@ -208,8 +213,7 @@ footer.footer-home {
         }
 
         .footer-item {
-            width: calc(100% / 4);
-
+           
             .app-list {
                 li {
                     margin-bottom: 15px;

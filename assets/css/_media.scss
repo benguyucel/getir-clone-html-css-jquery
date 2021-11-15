@@ -1,0 +1,105 @@
+@media only screen and (max-width: 880px) {
+    header {
+        nav {
+            padding: 0 10px;
+        }
+    }
+
+    .pl-60 {
+        padding-left: 0;
+    }
+
+    .pr-60 {
+        padding-right: 0;
+    }
+
+    .category-wrapper {
+        padding-top: 20px;
+        background-color: #eee;
+
+        .category-item {
+            padding: 15px 0;
+            width: calc(100% / 5) !important;
+        }
+    }
+
+    .favorites-container {
+        .item {
+            width: calc(100% / 5) !important;
+        }
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .wrapper-front-container {
+        .login-or-register-container.d-none {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .dk-container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .dk-item {
+            width: 100%;
+        }
+    }
+
+    header {
+        nav {
+            .nav-right {
+                display: none;
+            }
+        }
+    }
+
+    .category-wrapper {
+
+        .category-item {
+            padding: 15px 0;
+            width: calc(100% / 4) !important;
+        }
+    }
+
+    .wrapper-front-container {
+        display: none !important;
+    }
+
+    .mobile-show {
+        .d-none {
+            display: block;
+        }
+    }
+
+    .campaigns {
+        display: none !important;
+    }
+
+    .download-our-app-container {
+        .img-container {
+            img {
+                display: none !important;
+            }
+        }
+    }
+
+    .footer-container {
+        padding: 0 60px;
+        width: 100%;
+        text-align: center;
+
+        justify-content: space-evenly !important;
+
+        .footer-item {
+            margin-bottom: 30px;
+            justify-content: center;
+            align-content: center;
+            width: 100%;
+        }
+    }
+}

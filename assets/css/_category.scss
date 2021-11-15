@@ -3,10 +3,11 @@
 
 
     .category-wrapper {
+      
         display: flex;
         flex-wrap: wrap;
         margin-top: 20px;
-padding-bottom: 50px;
+        padding-bottom: 50px;
         .category-item {
             padding: 15px 0;
             width: calc(100% / 10);
